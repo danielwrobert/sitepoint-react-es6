@@ -25,7 +25,7 @@ class ReactReadingTime extends React.Component {
 					style={{ height: '500px', resize: 'none' }}>
 				</textarea>
 				</div>
-				<ReadingTime text={ this.state.text } className='col-lg-2 well' />
+				<ReadingTime data-weiner='tucker' textColor='green' text={ this.state.text } className='col-lg-2 well' />
 			</div>
 		);
 	}
